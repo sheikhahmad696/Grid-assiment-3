@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 30px;
+    text-transform:capitalize ;
+    line-height: 2.5;
+}
+.main{
+    height:auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.pic1{
+    height:60vh;
+    background-image: url(../media/housebroker.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic2{
+    height: 60vh;
+    background-image: url(../media/image\ 5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kid1{
+    padding: 1rem 1rem 0rem 4rem;
+}
+.main2{
+    height: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.pic3{
+    height: 30vh;
+    background-image:url(../media/a89173dd-e595-43f9-8170-13adab043cb7-870x440.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic4{
+    height: 30vh;
+    background-image:url(../media/DSC_1930.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic5{
+    height:30vh;
+    background-image:url(../media/image\ 3.webp) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media( max-width: 1024px) {
+    h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+    }
+    h2{
+        font-size: 25px;
+        text-transform:capitalize ;
+        line-height: 2.5;
+    }
+    .main{
+        height:auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+    .pic1{
+        height: auto;
+        background-image: url(../media/housebroker.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pic2{
+        height: auto;
+        background-image: url(../media/image\ 5.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .kid1{
+        padding: 1rem 1rem 0rem 4rem;
+        overflow: scroll;
+    }
+    .main2{
+        height: auto;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+    .pic3{
+        height: 30vh;
+        background-image:url(../media/a89173dd-e595-43f9-8170-13adab043cb7-870x440.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pic4{
+        height: 30vh;
+        background-image:url(../media/DSC_1930.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pic5{
+        height: 30vh;
+        background-image:url(../media/image\ 3.webp) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media(max-width:768px) {
+    
+    .main{
+        grid-template-columns: 2fr 1fr 1fr ;
+    }
+    .kid{
+        height: 50vh;
+        overflow: scroll;
+    }
+    .kid1{
+        padding: 1rem 1rem 0rem 1rem;
+    }
+}
+@media (max-width:425px) {
+    .main{
+        grid-template-columns: 1fr  ;
+    }.pic1{
+        height: 40vh;
+    }
+    .kid{
+        height: auto;
+
+    }
+    .pic2{
+        height: 40vh;
+    }
+    .main2{
+        grid-template-columns: 2fr 2fr;
+    }
+    
+}
